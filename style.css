@@ -97,7 +97,8 @@ h1 {
     border-image-slice: 1;
 }
 
-.copyright {
+footer {
     text-align: center;
-    padding: 20px 0px;
+    padding: 40px 0px 10px 0px;
+    font-size: 20px;
 }
