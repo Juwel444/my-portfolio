@@ -40,6 +40,14 @@ h1 {
     padding-left: 2%;
 }
 
+.experience-single {
+    max-width: 40%;
+    display: inline-block;
+    margin-left: 5%;
+    padding-left: 2%;
+    height: 80%;
+}
+
 .half-width img {
     width: 80%;
 }
@@ -66,11 +74,10 @@ h1 {
     box-shadow: 10px 10px 40px gray;
 }
 
-.experience {
-    margin-bottom: 100px;
+.experience::after {
     content: "";
     clear: both;
-    height: 80%;
+    display: block;
 }
 
 .center {
