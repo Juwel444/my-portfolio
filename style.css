@@ -79,13 +79,13 @@ h1 {
 }
 
 #Adnan {
-    border-left: 7px solid black;
+    border-left: 3px solid black;
     border-image: linear-gradient( 180deg, #1e40d6, rgb(115, 250, 74));
     border-image-slice: 1;
 }
 
 #Habib {
-    border-left: 7px solid black;
+    border-left: 3px solid black;
     border-image: linear-gradient( 180deg, #1e40d6, rgb(115, 250, 74));
     border-image-slice: 1;
 }
