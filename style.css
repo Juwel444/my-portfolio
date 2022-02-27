@@ -8,7 +8,6 @@ h1 {
 
 .yellow {
     color: #FF3283;
-    ;
 }
 
 .top-banner::after {
@@ -68,9 +67,10 @@ h1 {
 }
 
 .experience {
-    padding: 100px 0px;
+    margin-bottom: 100px;
     content: "";
     clear: both;
+    height: 80%;
 }
 
 .center {
@@ -79,7 +79,13 @@ h1 {
 }
 
 #Adnan {
-    border: 1px solid 7px;
-    border-image: linear-gradient( 180deg, #FF3283, rgb(13, 145, 8));
+    border-left: 7px solid black;
+    border-image: linear-gradient( 180deg, #1e40d6, rgb(115, 250, 74));
+    border-image-slice: 1;
+}
+
+#Habib {
+    border-left: 7px solid black;
+    border-image: linear-gradient( 180deg, #1e40d6, rgb(115, 250, 74));
     border-image-slice: 1;
 }
