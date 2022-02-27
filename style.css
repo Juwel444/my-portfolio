@@ -22,6 +22,18 @@ h1 {
     background-repeat: no-repeat;
 }
 
+#top::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#top {
+    background: url("images/top.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 .half-width {
     max-width: 40%;
     float: left;
@@ -49,4 +61,19 @@ h1 {
     color: #FF3283;
     border: 1px solid#FF3283;
     cursor: pointer;
+}
+
+.shadow-design {
+    box-shadow: 10px 10px 40px gray;
+}
+
+.experience {
+    padding: 100px 0px;
+    content: "";
+    clear: both;
+}
+
+.center {
+    text-align: center;
+    padding: 100px 0px;
 }
