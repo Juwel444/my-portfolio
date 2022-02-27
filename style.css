@@ -77,3 +77,9 @@ h1 {
     text-align: center;
     padding: 100px 0px;
 }
+
+#Adnan {
+    border: 1px solid 7px;
+    border-image: linear-gradient( 180deg, #FF3283, rgb(13, 145, 8));
+    border-image-slice: 1;
+}
