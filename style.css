@@ -80,6 +80,12 @@ h1 {
     display: block;
 }
 
+.experience {
+    background: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
 .center {
     text-align: center;
     padding: 100px 0px;
