@@ -96,3 +96,8 @@ h1 {
     border-image: linear-gradient( 180deg, #1e40d6, rgb(115, 250, 74));
     border-image-slice: 1;
 }
+
+.copyright {
+    text-align: center;
+    padding: 20px 0px;
+}
